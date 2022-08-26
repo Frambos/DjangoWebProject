@@ -1,0 +1,4 @@
+{
+  "SuppressConfigureTestFrameworkPrompt": "true",
+  "Interpreter": "Global|VisualStudio|env (Python 3.10 (64-bit))"
+}
