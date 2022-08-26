@@ -13,6 +13,7 @@ def contact_view(request,*args, **kwargs):
 def about_view(request,*args, **kwargs):
     my_context = {
             "my_text": "context value",
-            "my_number": 215
+            "my_number": 215,
+            "my_list": [23, 76, 868]
         }
     return render(request, "about.html", my_context)    
